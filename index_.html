@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="{{ config('app.locale') }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fleetline Graphics</title>
+
+  <link rel="stylesheet" href="lib/slick/slick.css">
+  <link rel="stylesheet" href="lib/slick/slick-theme.css">
+  <link rel="stylesheet" href="lib/vex-dialog/vex.css">
+  <link rel="stylesheet" href="lib/vex-dialog/vex-theme-os.css">
+  <!--<link rel="stylesheet" href="lib/vex-dialog/vex-theme-bottom-right-corner.css">-->
+  <!--<link rel="stylesheet" href="lib/vex-dialog/vex-theme-default.css">-->
+  <!--<link rel="stylesheet" href="lib/vex-dialog/vex-theme-flat-attack.css">-->
+  <!--<link rel="stylesheet" href="lib/vex-dialog/vex-theme-plain.css">-->
+  <!--<link rel="stylesheet" href="lib/vex-dialog/vex-theme-top.css">-->
+  <!--<link rel="stylesheet" href="lib/vex-dialog/vex-theme-wireframe.css">-->
+  <link rel="stylesheet" href="lib/lightbox2/css/lightbox.min.css">
+  <link rel="stylesheet" href="lib/socicon/style.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/manifest.js"></script>
+  <script src="js/vendor.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/slick/slick.min.js"></script>
+  <script src="lib/vex-dialog/vex.combined.min.js"></script>
+  <script src="lib/lightbox2/js/lightbox.min.js"></script>
+
+  <script src="js/main.js"></script>
+</head>
+<body>
+<div class="page-wrap">
+  <header id="home" class="page-header">
+    <nav class="page-header__nav">
+      <a href="#" class="page-header__brand">
+        <img src="assets/img/fleetline-logos/FG_Primary_Logo_1.png" width="115" height="60" alt="Fleetline graphics">
+      </a>
+      <input id="toggler" type="checkbox">
+      <label for="toggler"><span></span></label>
+      <ul class="page-header__menu">
+        <li><a id="js-scroll-home" href="#">Home</a></li>
+        <li><a id="js-scroll-about" href="#">About us</a></li>
+        <li><a id="js-scroll-services" href="#">Services</a></li>
+        <li><a id="js-scroll-gallery" href="#">Gallery</a></li>
+        <li><a id="js-scroll-process" href="#">Process</a></li>
+        <li><a id="js-scroll-clients" href="#">Clients</a></li>
+        <li><a id="js-scroll-contact" href="#">Contact us</a></li>
+        <li><a id="js-scroll-resources" href="#">Resources &amp; downloads</a></li>
+      </ul>
+    </nav>
+    <div class="page-header__content">
+      <div id="header-carousel" class="page-header__carousel">
+        <div class="page-header__slide page-header__slide-1"></div>
+        <div class="page-header__slide page-header__slide-2"></div>
+      </div>
+      <div class="page-header__wrap">
+        <h2>
+          <span>Design</span>
+          <span>Development</span>
+          <span>Branding</span>
+        </h2>
+        <h1>
+          Quality. Flexibility. Customisabillity
+        </h1>
+           <span class="small">
+             Trusted by hundreds of clients with over 10 years experience
+           </span>
+      </div>
+    </div>
+    <div class="arrow-down">
+      <a id="js-scroll-below" href="#" class="icon-arrow-down"></a>
+    </div>
+  </header>
+
+  <section id="about" class="introduction">
+    <div class="introduction__wrap">
+      <h2 class="introduction__title">
+        <span>Hello!</span> Welcome to Fleetline
+      </h2>
+      <p>
+        At Fleetline Graphics we're a full service graphic design & signage company
+        offering high quality graphics, signage, vehicle branding and promotional
+        materials at competitive prices to customers large and small.
+      </p>
+      <p>
+        Established in 2005 Fleetline Graphics has built its reputation on high quality
+        ad excellent service delivery and favoured among most corporates as their signage
+        partner of choice.
+      </p>
+    </div>
+  </section>
+
+  <section class="stats col-lg-3 col-md-3 col-sm-1 col-xs-1">
+    <div class="stats__item">
+      <div class="stats__img">
+        <img src="assets/img/icons/bottle.png" alt="Bottle">
+      </div>
+      <div class="stats__desc">
+        <span class="stats__num">1200</span>
+        <span class="stats__text">Creative designs</span>
+      </div>
+    </div>
+    <div class="stats__item">
+      <div class="stats__img">
+        <img src="assets/img/icons/goblet.png">
+      </div>
+      <div class="stats__desc">
+        <span class="stats__num">578</span>
+        <span class="stats__text">Happy clients</span>
+      </div>
+    </div>
+    <div class="stats__item">
+      <div class="stats__img">
+        <img src="assets/img/icons/envelope.png">
+      </div>
+      <div class="stats__desc">
+        <span class="stats__num">12489</span>
+        <span class="stats__text">Emails sent</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2 class="services__title">Our services</h2>
+    <hr>
+    <div class="services__small">Continuously creating daring branding solutions</div>
+    <div class="services__wrap col-lg-3 col-md-3 col-sm-2 col-xs-1">
+      <a href="#" class="services__item">
+        <div class="services__img">
+          <img src="assets/img/icons/Services/Signage_Small.fw.png" alt="Signage">
+        </div>
+        <div class="services__item-title">Signage</div>
+        <div class="services__desc">
+          Get noticed from afar and draw the attention of customers with eye catching signs for both indoor and outdoor application
+        </div>
+        <button class="services__btn-readmore hide-lg hide-md hide-sm">Read more</button>
+      </a>
+      <a href="#" class="services__item">
+        <div class="services__img">
+          <img src="assets/img/icons/Services/Display_Small.fw.png" alt="Display" width="50" height="80">
+        </div>
+        <div class="services__item-title">Display</div>
+        <div class="services__desc">
+          We offer printing solutions for indoor and outdoor signage for big and small business
+        </div>
+        <button class="services__btn-readmore hide-lg hide-md hide-sm">Read more</button>
+      </a>
+      <a href="#" class="services__item">
+        <div class="services__img">
+          <img src="assets/img/icons/Services/Car_Branding_Small.fw.png" alt="Car Branding" width="85" height="80">
+        </div>
+        <div class="services__item-title">Car Branding</div>
+        <div class="services__desc">
+          Take your marketing on the road and grow your audience with stand-out vehicle wraps and fleet-graphics
+        </div>
+        <button class="services__btn-readmore hide-lg hide-md hide-sm">Read more</button>
+      </a>
+      <a href="#" class="services__item">
+        <div class="services__img">
+          <img src="assets/img/icons/Services/Digital_Printing_Small.fw.png" alt="Digital Printing" width="100" height="80">
+        </div>
+        <div class="services__item-title">Digital Printing</div>
+        <div class="services__desc">
+          We offer printing solutions for indoor and outdoor signage for big and small business
+        </div>
+        <button class="services__btn-readmore hide-lg hide-md hide-sm">Read more</button>
+      </a>
+      <a href="#" class="services__item">
+        <div class="services__img">
+          <img src="assets/img/icons/Services/Point_Of_Sale_Small.fw.png" alt="Point of Sale" width="80" height="80">
+        </div>
+        <div class="services__item-title">Point of Sale</div>
+        <div class="services__desc">
+          Use eye-catching promotional displays and help your clients make decisions where it matters most
+        </div>
+        <button class="services__btn-readmore hide-lg hide-md hide-sm">Read more</button>
+      </a>
+      <a href="#" class="services__item">
+        <div class="services__img">
+          <img src="assets/img/icons/Services/Gifting_&_Aparell_Small.fw.png" alt="Gifting & Apparel" width="80" height="80">
+        </div>
+        <div class="services__item-title">Gifting & Apparel</div>
+        <div class="services__desc">
+          We offer printing solutions for indoor and outdoor signage for big and small business
+        </div>
+        <button class="services__btn-readmore hide-lg hide-md hide-sm">Read more</button>
+      </a>
+    </div>
+  </section>
+
+  <section class="service-promise">
+    <div class="service-promise__wrap col-lg-2 col-md-2 col-sm-1 col-xs-1">
+      <div class="service-promise__item"></div>
+      <div class="service-promise__item">
+        <div>
+          <div class="service-promise__small">Reach Your Goals</div>
+          <h3 class="service-promise__title">Our service promise to you</h3>
+          <p class="service-promise__desc">We want to help you express your brand with quality content and branding
+            material that will help you reach your audience, build meaningful connections and grow
+            your success. Different marketing goals mean different branding solutions.</p>
+          <button class="service-promise__btn quote-request-dialog">Request a quote</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="product-gallery">
+    <h2 class="product-gallery__title">Product gallery</h2>
+    <hr>
+    <div class="product-gallery__small">Diverse products prepared with creative ideas and great design</div>
+    <input id="filter-toggle" type="checkbox" class="product-gallery__filter-toggle">
+    <label for="filter-toggle" class="product-gallery__filter-toggle-label">
+      <span></span>
+    </label>
+    <nav class="product-gallery__filter">
+      <ul>
+        <li><button class="filter-button active" data-filter="all">All</button></li>
+        <li><button class="filter-button" data-filter="vehicles">Vehicles</button></li>
+        <li><button class="filter-button" data-filter="signage">Signage</button></li>
+        <li><button class="filter-button" data-filter="gifts">Gifts</button></li>
+        <li><button class="filter-button" data-filter="printing">Digital printing</button></li>
+        <li><button class="filter-button" data-filter="point-of-sale">Point of sale</button></li>
+        <li><button class="filter-button" data-filter="other">Other</button></li>
+      </ul>
+    </nav>
+    <div id="gallery-carousel" class="product-gallery__wrap">
+      <div class="product-gallery__item filter printing">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+      <div class="product-gallery__item filter point-of-sale">
+        <div class="product-gallery__item-wrap">
+          <a href="assets/img/gallery_1/second.png" data-lightbox="gallery">
+            <img src="assets/img/gallery_1/second.png" alt="Orange Molapo">
+          </a>
+        </div>
+      </div>
+      <div class="product-gallery__item filter printing">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+      <div class="product-gallery__item filter printing">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+      <div class="product-gallery__item filter point-of-sale">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+      <div class="product-gallery__item filter other">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+
+      <div class="product-gallery__item filter other">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+      <div class="product-gallery__item filter gifts">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+      <div class="product-gallery__item filter vehicles">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+      <div class="product-gallery__item filter printing">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+      <div class="product-gallery__item filter point-of-sale">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+      <div class="product-gallery__item filter other">
+        <a href="assets/img/gallery_1/first.png" data-lightbox="gallery">
+          <img src="assets/img/gallery_1/first.png" alt="Arch">
+        </a>
+      </div>
+
+      <!--<div class="product-gallery__item filter other">-->
+        <!--<div class="product-gallery__item-wrap">-->
+          <!--<a href="assets/img/gallery_1/first.png" data-lightbox="gallery">-->
+            <!--<img src="assets/img/gallery_1/first.png" alt="Arch">-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="product-gallery__item filter point-of-sale">-->
+        <!--<div class="product-gallery__item-wrap">-->
+          <!--<a href="assets/img/gallery_1/second.png" data-lightbox="gallery">-->
+            <!--<img src="assets/img/gallery_1/second.png" alt="Orange Molapo">-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="product-gallery__item filter printing">-->
+        <!--<div class="product-gallery__item-wrap">-->
+          <!--<a href="assets/img/gallery_1/third.png" data-lightbox="gallery">-->
+            <!--<img src="assets/img/gallery_1/third.png" alt="Be Mobile">-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="product-gallery__item filter signage">-->
+        <!--<div class="product-gallery__item-wrap">-->
+          <!--<a href="assets/img/gallery_1/fourth.png" data-lightbox="gallery">-->
+            <!--<img src="assets/img/gallery_1/fourth.png" alt="Jack Gym">-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="product-gallery__item filter vehicles">-->
+        <!--<div class="product-gallery__item-wrap">-->
+          <!--<a href="assets/img/gallery_1/fifth.png" data-lightbox="gallery">-->
+            <!--<img src="assets/img/gallery_1/fifth.png" alt="GMR">-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="product-gallery__item filter gifts">-->
+        <!--<div class="product-gallery__item-wrap">-->
+          <!--<a href="assets/img/gallery_1/sixth.png" data-lightbox="gallery">-->
+            <!--<img src="assets/img/gallery_1/sixth.png" alt="Ornage Ghanzi">-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</div>-->
+
+
+
+    </div>
+
+    <!--<button class="product-gallery__btn">Load more</button>-->
+
+  </section>
+
+  <section id="process" class="process">
+    <div class="process__wrap">
+      <h2 class="process__title">Our process</h2>
+      <hr>
+      <div class="process__small">That's how we do it</div>
+    </div>
+    <div class="process__wrap col-lg-5 col-md-5 col-sm-3 col-xs-1">
+      <div class="process__item">
+        <div class="process__img">
+          <div class="process__img-wrap">
+            <img src="assets/img/process/Process/1_Process_Idea.png" alt="Idea">
+          </div>
+        </div>
+        <p class="process__desc">
+          1. Idea
+        </p>
+      </div>
+      <div class="process__item">
+        <div class="process__img">
+          <div class="process__img-wrap">
+            <img class="big" src="assets/img/process/Process/2_Process_Planning.png" alt="">
+          </div>
+        </div>
+        <p class="process__desc">
+          2. Planning
+        </p>
+      </div>
+      <div class="process__item">
+        <div class="process__img">
+          <div class="process__img-wrap">
+            <img src="assets/img/process/Process/3_Process_Design.png" alt="">
+          </div>
+        </div>
+        <p class="process__desc">
+          3. Design
+        </p>
+      </div>
+      <div class="process__item">
+        <div class="process__img">
+          <div class="process__img-wrap">
+            <img src="assets/img/process/Process/4_Process_Development.png" alt="">
+          </div>
+        </div>
+        <p class="process__desc">
+          4. Production
+        </p>
+      </div>
+      <div class="process__item">
+        <div class="process__img">
+          <div class="process__img-wrap">
+            <img class="big" src="assets/img/process/Process/5_Process_Results.png" alt="">
+          </div>
+        </div>
+        <p class="process__desc">
+          5. Results
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients" class="clients">
+    <h2 class="clients__title">Our clients</h2>
+    <hr>
+    <div class="clients__small">They trust us</div>
+    <div class="clients__wrap">
+      <div id="clients-carousel" class="clients__carousel">
+        <div class="clients__slide clients__slide-1"></div>
+        <div class="clients__slide clients__slide-2"></div>
+        <div class="clients__slide clients__slide-3"></div>
+        <div class="clients__slide clients__slide-4"></div>
+        <div class="clients__slide clients__slide-5"></div>
+        <div class="clients__slide clients__slide-6"></div>
+        <div class="clients__slide clients__slide-7"></div>
+        <div class="clients__slide clients__slide-8"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contacts">
+    <div class="contacts__wrap">
+      <div class="contacts__item">
+        <div class="contacts__quote-img">
+          <div class="contacts__img-wrap">
+            <img src="assets/img/footer/Quote_Small.fw.png" alt="Quote">
+          </div>
+        </div>
+        <p class="contacts__desc">Request a quote and we'll get right back to you</p>
+        <button class="contacts__request-btn quote-request-dialog">Request now</button>
+      </div>
+      <div class="contacts__item">
+        <div class="contacts__img">
+          <img src="assets/img/footer/Location_Pin_Big.fw.png" alt="Location">
+        </div>
+        <div class="contacts__info">
+          <h4>Gaborone</h4>
+          <p>Plot 20642 Unit 4-6</p>
+          <p>Block 3 Industrial</p>
+          <p>Gaborone</p>
+          <button class="contacts__map-btn map-dialog">Map</button>
+        </div>
+      </div>
+      <div class="contacts__item">
+        <div class="contacts__phone">
+          <div class="contacts__img">
+            <div class="contacts__img-wrap">
+              <img src="assets/img/footer/Phone_Big.fw.png" alt="Phone">
+            </div>
+          </div>
+          <div class="contacts__info">
+            <h4>Call us</h4>
+            <p>+267 3167166</p>
+          </div>
+        </div>
+        <div class="contacts__email">
+          <div class="contacts__img">
+            <div class="contacts__img-wrap">
+              <img src="assets/img/footer/Envelope_Big.fw.png" alt="Envelope">
+            </div>
+          </div>
+          <div class="contacts__info">
+            <h4>Email us</h4>
+            <p>info@fleetline.co.bw</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="page-footer__wrap">
+      <nav class="page-footer__nav">
+        <ul class="page-footer__menu">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Terms & Privacy</a></li>
+        </ul>
+      </nav>
+      <div class="page-footer__logo">
+        <div class="page-footer__logo-wrap">
+          <img src="assets/img/fleetline-logos/FG_Secondary_Logo_1.png" alt="Fleetline Graphics">
+        </div>
+      </div>
+      <ul class="page-footer__social-icons">
+        <li>
+          <a href="#"> <i class="socicon-facebook"></i> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="socicon-twitter"></i> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="socicon-linkedin"></i> </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

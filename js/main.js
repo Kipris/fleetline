@@ -81,11 +81,7 @@ webpackJsonp([1,2],[
             $('#gallery-carousel').slick('slickUnfilter');
         } else {
             $('#gallery-carousel').slick('slickUnfilter');
-            $('#gallery-carousel').slick('slickFilter', $(this).attr('data-filter') + 'vehicles');
-            console.log(value);
-
-            // value = 'vehicles';
-            // '.'+value = '.vehicles'
+            $('#gallery-carousel').slick('slickFilter', '.'+value);
         }
     });
 
